@@ -126,10 +126,16 @@ The App is not intended for, and is not directed at, individuals under 18 years 
 If you have questions, requests, or complaints regarding this Privacy Policy or your personal data, please contact:
 
 > **Tripura Industrial Development Corporation Limited (TIDCL)**
-> Address: _[Insert registered office address]_
-> Email: _[Insert grievance/contact email]_
-> Phone: _[Insert contact number, optional]_
-> Grievance Officer: _[Insert name / designation]_
+> *(A Government of Tripura Undertaking)*
+>
+> Shilpa Nigam Bhawan, Near Ginger Hotel, Khejur Bagan
+> P.O.: Kunjaban, Agartala, West Tripura, India — PIN 799006
+>
+> **Phone:** 0381-2416617, 2416446, 2416373
+> **Fax:** 0381-2414503
+> **Email:** tidcltd.in@gmail.com
+>
+> **Office Hours:** Daily 10:00 A.M. to 5:30 P.M. (Sunday and second & fourth Saturday closed)
 
 ---
 
