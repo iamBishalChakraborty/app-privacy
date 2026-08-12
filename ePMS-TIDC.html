@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — TIDCL PMS</title>
+<style>
+  :root {
+    --navy: #003366;
+    --blue: #1976D2;
+    --blue-light: #42A5F5;
+    --ink: #2C3E50;
+    --muted: #5D6D7E;
+    --bg: #F8F9FA;
+    --border: #e3e8ef;
+    --code-bg: #f1f5f9;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  /* Hero header */
+  header.hero {
+    background: linear-gradient(135deg, #003366 0%, #1976D2 55%, #42A5F5 100%);
+    color: #fff;
+    padding: 64px 24px 56px;
+    text-align: center;
+  }
+  header.hero .badge {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.15);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+  header.hero h1 {
+    margin: 0 0 8px;
+    font-size: clamp(28px, 5vw, 42px);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+  }
+  header.hero p.subtitle {
+    margin: 0 auto;
+    max-width: 640px;
+    font-size: 17px;
+    color: rgba(255,255,255,0.9);
+  }
+  header.hero .meta {
+    margin-top: 22px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.85);
+  }
+  header.hero .meta span { margin: 0 10px; }
+
+  /* Layout */
+  .wrapper {
+    max-width: 880px;
+    margin: -36px auto 64px;
+    padding: 0 20px;
+  }
+
+  .toc {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 26px;
+    margin-bottom: 36px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  }
+  .toc h2 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+  }
+  .toc ol {
+    margin: 0;
+    padding-left: 20px;
+    columns: 2;
+    column-gap: 28px;
+  }
+  .toc li { margin: 6px 0; break-inside: avoid; }
+  .toc a {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .toc a:hover { text-decoration: underline; }
+  @media (max-width: 560px) { .toc ol { columns: 1; } }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 34px 36px;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 22px rgba(0,0,0,0.04);
+  }
+
+  .card > h2 {
+    color: var(--navy);
+    font-size: 22px;
+    margin: 0 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border);
+  }
+  .card > h3 {
+    color: var(--blue);
+    font-size: 17px;
+    margin: 26px 0 10px;
+  }
+  .card p { margin: 12px 0; }
+  .card ul, .card ol { padding-left: 22px; }
+  .card li { margin: 8px 0; }
+  .card a { color: var(--blue); }
+
+  strong { color: var(--ink); }
+
+  /* Callout / note box */
+  .note {
+    background: #E3F2FD;
+    border-left: 4px solid var(--blue);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 18px 0;
+    font-size: 15px;
+    color: #1B3A57;
+  }
+  .note.placeholder {
+    background: #FFF8E1;
+    border-left-color: #F5A623;
+    color: #6a4b00;
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0;
+    font-size: 14.5px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  thead {
+    background: linear-gradient(135deg, var(--navy), var(--blue));
+    color: #fff;
+  }
+  th, td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:nth-child(even) { background: #f8fafc; }
+  td code, p code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 13.5px;
+    color: #b9386a;
+  }
+
+  .end {
+    text-align: center;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 12px;
+    padding: 16px 0 8px;
+  }
+
+  footer.site {
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+    padding: 24px;
+    border-top: 1px solid var(--border);
+    background: #fff;
+  }
+  footer.site a { color: var(--blue); text-decoration: none; margin: 0 8px; }
+  footer.site a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    .card { padding: 24px 20px; }
+    header.hero { padding: 48px 18px 44px; }
+    th, td { font-size: 13.5px; padding: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <span class="badge">TIDCL · Project Monitoring System</span>
+  <h1>Privacy Policy</h1>
+  <p class="subtitle">How Tripura Industrial Development Corporation Limited collects, uses, stores, and protects your information in the TIDCL PMS mobile application.</p>
+  <div class="meta">
+    <span>Effective Date: August 6, 2025</span>·
+    <span>Last Updated: August 27, 2025</span>
+  </div>
+</header>
+
+<div class="wrapper">
+
+  <nav class="toc" aria-label="Table of contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#s1">Information We Collect</a></li>
+      <li><a href="#s2">How We Use Your Information</a></li>
+      <li><a href="#s3">How We Store Information</a></li>
+      <li><a href="#s4">Third-Party Services</a></li>
+      <li><a href="#s5">How We Share Information</a></li>
+      <li><a href="#s6">Security</a></li>
+      <li><a href="#s7">Your Rights</a></li>
+      <li><a href="#s8">Children's Privacy</a></li>
+      <li><a href="#s9">Contact / Grievance Officer</a></li>
+      <li><a href="#s10">Changes to This Policy</a></li>
+    </ol>
+  </nav>
+
+  <!-- Intro -->
+  <section class="card">
+    <p>
+      This Privacy Policy describes how <strong>Tripura Industrial Development Corporation Limited ("TIDCL", "we", "us", or "our")</strong> collects, uses, stores, and protects information when you use the <strong>TIDCL Project Monitoring System ("PMS", the "App")</strong> mobile application. The App is an internal/enterprise tool used by TIDCL personnel and authorised project stakeholders to monitor the progress of projects undertaken by TIDCL. For more information about TIDCL, please visit our official website at <a href="https://tidc.tripura.gov.in/" target="_blank" rel="noopener"><strong>https://tidc.tripura.gov.in/</strong></a>.
+    </p>
+    <p>
+      The App has been developed by <strong>Develegance Innovatech Private Limited</strong> (official website: <a href="https://develeganceinnovatech.in/" target="_blank" rel="noopener">https://develeganceinnovatech.in/</a>) acting as a technology development partner. However, the App, its content, the data collected through it, and all rights therein are <strong>owned and controlled by TIDCL</strong>, which is the data controller responsible for your personal data under this Privacy Policy. Develegance Innovatech Private Limited acts solely as a data processor on behalf of TIDCL and does not use your personal data for its own purposes.
+    </p>
+    <p>
+      By installing, registering for, or using the App, you agree to the practices described in this Privacy Policy. This Policy is issued in accordance with the <strong>Digital Personal Data Protection Act, 2023 (DPDP Act)</strong> of India and other applicable laws.
+    </p>
+    <div class="note">
+      <strong>Note on audience:</strong> The App is intended for use by authorised employees, officers, consultants, contractors, and assigned project users of TIDCL. It is not directed at the general public.
+    </div>
+  </section>
+
+  <!-- 1 -->
+  <section class="card" id="s1">
+    <h2>1. Information We Collect</h2>
+
+    <h3>1.1 Information you provide</h3>
+    <ul>
+      <li><strong>Account credentials:</strong> Your username and password, which you enter to sign in. Passwords are submitted to our server for authentication and are not permanently stored by the App on your device.</li>
+      <li><strong>Profile information:</strong> Your name, username, email address, mobile number, and assigned role, as returned by the server after login and displayed on your in-app profile.</li>
+      <li><strong>Project &amp; contractor data:</strong> Information about projects and associated companies/contractors that you are authorised to view, including company name, email, mobile number, GST number, PAN, and address.</li>
+      <li><strong>Progress updates:</strong> Physical-progress percentages, remarks, and photographs that you capture or select and submit for a project.</li>
+    </ul>
+
+    <h3>1.2 Information collected automatically</h3>
+    <ul>
+      <li><strong>Photographs:</strong> Images you capture using the device camera or select from the device gallery to attach to project-progress submissions. These are uploaded to our backend storage service (MinIO).</li>
+      <li><strong>App usage and diagnostic data:</strong> Limited usage events and crash/performance diagnostics collected via <strong>Google Firebase</strong> services (see Section 4). This may include device model, operating-system version, app version, language/region settings, and timestamps of events.</li>
+      <li><strong>Session identifiers:</strong> Authentication cookies/tokens stored on your device to keep you signed in during a session.</li>
+    </ul>
+
+    <h3>1.3 Permissions the App requests</h3>
+    <p>To provide its features, the App requests the following Android permissions:</p>
+    <table>
+      <thead>
+        <tr><th>Permission</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>INTERNET</code></td><td>Communicate with the TIDCL backend and Firebase services.</td></tr>
+        <tr><td><code>POST_NOTIFICATIONS</code></td><td>Send you push notifications (e.g., project updates) via Firebase Cloud Messaging (Android 13+).</td></tr>
+        <tr><td><code>CAMERA</code></td><td>Capture photographs for project-progress submissions.</td></tr>
+        <tr><td><code>READ_EXTERNAL_STORAGE</code> / <code>READ_MEDIA_IMAGES</code></td><td>Select existing photographs from your device gallery for upload.</td></tr>
+      </tbody>
+    </table>
+    <p>The App <strong>does not</strong> request or collect precise or coarse device location (GPS), contacts, call logs, microphone audio, SMS, or calendar data.</p>
+  </section>
+
+  <!-- 2 -->
+  <section class="card" id="s2">
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the information collected to:</p>
+    <ol>
+      <li><strong>Authenticate</strong> you and manage your user session.</li>
+      <li><strong>Display</strong> your authorised projects, profile, and associated contractor/company information.</li>
+      <li><strong>Record and track</strong> physical progress of projects, including progress percentages, remarks, and supporting photographs.</li>
+      <li><strong>Store</strong> uploaded photographs on our backend object-storage service so they can be viewed and reviewed alongside project records.</li>
+      <li><strong>Send push notifications</strong> regarding project updates and App activity.</li>
+      <li><strong>Monitor, stabilise, and improve</strong> the App through crash reporting and limited usage analytics.</li>
+      <li><strong>Maintain security, prevent fraud,</strong> and comply with applicable legal obligations.</li>
+    </ol>
+  </section>
+
+  <!-- 3 -->
+  <section class="card" id="s3">
+    <h2>3. How We Store Information</h2>
+    <ul>
+      <li><strong>On your device:</strong> The App stores limited data locally on your device using platform storage (SharedPreferences, Hive/GetStorage), such as in-progress project data and references to photographs you have selected, so the App can resume your work and operate offline-friendly. This data remains on your device until you clear it or uninstall the App. Logging out clears your in-session user data from the App.</li>
+      <li><strong>On our servers:</strong> Account, profile, project, contractor, and progress data is stored on the TIDCL backend (<code>services.tripuraidc.in</code>). Uploaded photographs are stored in our backend object storage (MinIO).</li>
+      <li><strong>Retention:</strong> We retain personal data for as long as your account is active and for such additional period as required by applicable law, audit requirements, or legitimate business/record-keeping needs of TIDCL. In-progress data you have not yet submitted is retained locally on your device and is removed when you clear it or uninstall the App.</li>
+    </ul>
+    <div class="note placeholder">
+      <em>Specify institutional retention period here, if fixed — e.g., "Project records are retained for [X] years after project completion as per TIDCL record-retention norms."</em>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section class="card" id="s4">
+    <h2>4. Third-Party Services</h2>
+    <p>The App uses the following third-party processors. Each processor processes data on our behalf and is governed by its own privacy and security practices.</p>
+    <table>
+      <thead>
+        <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Firebase Analytics</td><td>Google LLC</td><td>Aggregate usage metrics and event tracking</td><td>App events, approximate device characteristics, App version</td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>Crash and error diagnostics</td><td>Stack traces, device model/OS, App version, timestamps</td></tr>
+        <tr><td>Firebase Cloud Messaging</td><td>Google LLC</td><td>Push notifications</td><td>Push token, notification delivery</td></tr>
+        <tr><td>Firebase Remote Config</td><td>Google LLC</td><td>Serve runtime configuration (e.g., backend endpoint)</td><td>App instance identifier</td></tr>
+        <tr><td>Firebase Auth / Firestore / Storage</td><td>Google LLC</td><td>Backend platform services (as configured)</td><td>Data routed through Firebase where applicable</td></tr>
+        <tr><td>Backend object storage (MinIO)</td><td>Hosted by TIDCL backend</td><td>Storage of project photographs</td><td>Uploaded image files</td></tr>
+        <tr><td>HTTP client / cookies</td><td>—</td><td>Session management with backend</td><td>Session cookies</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Google Firebase</strong> may transfer data outside India subject to Google's privacy and security framework. We do not sell your personal data to any third party, and we do not use advertising SDKs or share data for cross-context advertising.</p>
+  </section>
+
+  <!-- 5 -->
+  <section class="card" id="s5">
+    <h2>5. How We Share Information</h2>
+    <p>We do not sell your personal data. We may share information:</p>
+    <ol>
+      <li><strong>Internally</strong> within TIDCL and the Government of Tripura, with authorised personnel who require it to perform their duties.</li>
+      <li><strong>With service providers</strong> (such as Google Firebase and our hosting/storage providers) who process data on our behalf to operate the App.</li>
+      <li><strong>When required by law,</strong> with government, regulatory, or judicial authorities pursuant to a lawful request.</li>
+      <li><strong>In connection with audits, investigations, or statutory compliance</strong> relevant to TIDCL's operations as a public-sector entity.</li>
+    </ol>
+  </section>
+
+  <!-- 6 -->
+  <section class="card" id="s6">
+    <h2>6. Security</h2>
+    <p>We take reasonable technical and organisational measures to protect your data, including:</p>
+    <ul>
+      <li>Authenticated API access with session validation and logout.</li>
+      <li>Use of HTTPS for communication between the App and our backend.</li>
+      <li>Server-side storage of project and image data within the TIDCL backend environment.</li>
+      <li>Automatic crash reporting to detect and remediate defects.</li>
+    </ul>
+    <p>No method of transmission or storage is fully secure, however, and we cannot guarantee absolute security. Unauthorised disclosure of your login credentials may compromise the security of your account — please keep your credentials confidential.</p>
+  </section>
+
+  <!-- 7 -->
+  <section class="card" id="s7">
+    <h2>7. Your Rights</h2>
+    <p>Depending on applicable law (including the DPDP Act, 2023), you may have rights relating to your personal data, including:</p>
+    <ul>
+      <li><strong>Access</strong> a summary of your personal data held by us.</li>
+      <li><strong>Correction / updating</strong> of inaccurate or incomplete data.</li>
+      <li><strong>Withdrawal of consent</strong> for certain processing, where applicable.</li>
+      <li><strong>Erasure / deletion</strong> of data, subject to legal and record-retention obligations.</li>
+      <li><strong>Grievance redressal:</strong> You may contact us using the details in Section 9 to exercise any of these rights or to raise a complaint.</li>
+    </ul>
+    <p>Please note that some data (such as official project records and audit-relevant information) may be retained as required by law even after you request deletion.</p>
+  </section>
+
+  <!-- 8 -->
+  <section class="card" id="s8">
+    <h2>8. Children's Privacy</h2>
+    <p>The App is not intended for, and is not directed at, individuals under 18 years of age. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us so we can take appropriate action.</p>
+  </section>
+
+  <!-- 9 -->
+  <section class="card" id="s9">
+    <h2>9. Contact Us / Grievance Officer</h2>
+    <p>If you have questions, requests, or complaints regarding this Privacy Policy or your personal data, please contact:</p>
+    <div class="note">
+      <strong>Tripura Industrial Development Corporation Limited (TIDCL)</strong><br>
+      <em>(A Government of Tripura Undertaking)</em><br><br>
+      Shilpa Nigam Bhawan, Near Ginger Hotel, Khejur Bagan<br>
+      P.O.: Kunjaban, Agartala, West Tripura, India — PIN 799006<br><br>
+      <strong>Phone:</strong> 0381-2416617, 2416446, 2416373<br>
+      <strong>Fax:</strong> 0381-2414503<br>
+      <strong>Email:</strong> <a href="mailto:tidcltd.in@gmail.com">tidcltd.in@gmail.com</a><br><br>
+      <strong>Office Hours:</strong> Daily 10:00 A.M. to 5:30 P.M.<br>
+      <span style="color:#6a4b00;">(Sunday and second &amp; fourth Saturday closed)</span>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section class="card" id="s10">
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App, legal requirements, or our practices. The "Effective Date" at the top indicates when the Policy was last revised. We will notify you of material changes through the App or via notification where appropriate. Continued use of the App after a change constitutes acceptance of the updated Policy.</p>
+    <p class="end">— End of Privacy Policy —</p>
+  </section>
+
+</div>
+
+<footer class="site">
+  <a href="https://tidc.tripura.gov.in/" target="_blank" rel="noopener">TIDCL Official Website</a>·
+  <a href="https://develeganceinnovatech.in/" target="_blank" rel="noopener">Develegance Innovatech</a>
+  <div style="margin-top:8px;">© Tripura Industrial Development Corporation Limited. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
